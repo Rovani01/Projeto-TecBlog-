@@ -1,0 +1,96 @@
+/*Limpando formatações Padrões */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 1em;
+	font-family:"Trebuche MS", Helvetica, sans-serif;
+	background:#e6e6e6;
+
+	/*inicio Layout*/
+}
+#cabeçalho{
+	padding: 25px;
+	background-color: orange;
+	text-align: center;
+}
+
+.logo{
+	font-size: 30px;
+}
+.blog{
+	color: white;
+}
+
+#area-link{
+	margin-bottom: 0;
+	padding: 15px;
+}
+
+a{
+	color: orange;
+	padding: 10px 10px;
+	margin-bottom: 10px;
+	text-decoration: none;
+
+}
+
+#cabeçalho a:link, #cabeçalho a:visited{
+	color: white;
+}
+
+#cabeçalho a:hover{
+	background-color: white;
+	color: orange;
+}
+
+/* Fim Layout */
+
+#principal{
+	width: 920px;
+	margin: 0px auto;
+}
+.area-postagem{
+	padding: 10px;
+	width:650px;
+	margin: 10px auto;
+	background: white;
+	float: left;
+}
+.menu-lateral{
+	padding: 5px;
+	width: 230px;
+	margin: 10px auto;
+	background: white;
+	float: right;
+}
+.data-post{
+	margin: 10px;
+}
+h1{
+	color: orange;
+}
+.post-lateral{
+	color: white;
+	text-align: center;
+	padding: 5px;
+	background-color: gray;
+}
+ul{
+	margin: 5px;
+	text-align: center;
+}
+.pst-text{
+	padding: 5px;
+	margin-bottom: 5px;
+}
+.rodape{
+	font-size:1.4em;
+	font-family: Helvetica;
+	color: white;
+	padding: 10px;
+	background: orange;
+	clear:both;
+	text-align: center;
+}
